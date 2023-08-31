@@ -46,5 +46,9 @@ If you find this implementation useful and want to cite/mention this page, here 
 
 ```
 
-# Proper way to replicate table 6 from the paper
-Run the test.py file with the desired architecture name and just use "--pretrained" which is by default True.
+## Proper way to replicate table 6 from the paper
+Run the test.py the architecture name will automatically select which pretrained model to choose from.
+
+```bash
+python test.py --arch ARCHNAME --pretrained
+```
